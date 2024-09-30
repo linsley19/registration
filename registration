@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registration Page</title>
+  <link rel = "icon" type ="image/x-icon" href="images/logs.png">
+
+  <link rel = "stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <form action= "">
+    <div id= "container">
+      <div id= "logoArea">
+        <img src="images/logs.png">
+        <h3>Registration</h3>
+      </div> 
+      <div id ="inputFieldArea">
+        <div class="groupField">
+          <label>Enter Firstname:</label><br>
+          <input type ="text" id ="Firstname" required>
+    </div>
+    <div id ="inputFieldArea">
+        <div class="groupField">
+          <label>Enter Middlename:</label><br>
+          <input type ="text" id ="Middlename" required>
+    </div>
+    <div id ="inputFieldArea">
+        <div class="groupField">
+          <label>Enter Lastname:</label><br>
+          <input type ="text" id ="Lastname" required>
+    </div>
+    <div class="groupField">
+          <label>Select Suffix:</label><br>
+          <select id="suffix">
+            <option>None</option>
+            <option>Jr.</option>
+            <option>Sr.</option>
+            <option>I</option>
+            <option>II</option>
+            <option>III</option>
+           </select>
+    </div>
+    <div class="groupField">
+          <label>Pick Birthdate:</label><br>
+          <input type ="date" id ="Birthdate" required>
+    </div>
+    <div class="groupField">
+          <label>Enter Email Address:</label><br>
+          <input type ="email" id ="Email" required>
+    </div>
+    <small>User Account Information</small>
+    <div class="groupField">
+          <label>Enter Username:</label><br>
+          <input type ="text" id ="Username"required>
+    </div>
+    <div class="groupField">
+          <label>Enter Password:</label><br>
+          <input type ="text" id ="Password"required>
+    </div>
+
+<div id="buttonArea">
+  <button type = "reset">Cancel</button>
+  <button type = "submit">Submit</button>
+
+  </form>
+
+</body>
+</html>
